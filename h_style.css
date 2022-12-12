@@ -1,0 +1,68 @@
+html {
+    background-color: lightblue;
+  }
+  body {
+    padding: 50px;
+    background-color: lightblue;
+  }
+    .container {
+      position: absolute;
+      left: 60%;
+    }
+
+  .carousel {
+    box-shadow: 2px 2px 5px black;
+    height: min-content;
+    width: min-content;
+    overflow: hidden;
+    top: 85vh;
+    border: black solid 3px;
+
+  }
+  #house {
+    position: relative;
+  }
+  #house #pic1 {
+    border: solid black 3px;
+    box-shadow: 2px 2px 5px black;
+  }
+  .image-container {
+    width: 500px;
+    height: 500px;
+    display: flex;
+    transform: translateX(0);
+    transition: transform 0.5s ease-in-out;
+  }
+  .buttons-container {
+    display: flex;
+    justify-content: space-between;
+  }
+  .btn {
+    object-fit: cover;
+    background-color: purple;
+    color: white;
+    border: none;
+    padding: 0.5rem;
+    cursor: pointer;
+    width: 49.5%;
+
+  }
+  .btn:hover {
+    opacity: 0.9;
+  }
+
+  img {
+    width: 500px;
+    height: 500px;
+    object-fit: cover;
+  }
+  ul li {
+    font-family: "Lucida Console", "Courier New", monospace;
+    line-height: 40px;
+  }
+  h1, h2, h3, h4 {
+    font-family: "Lucida Console", "Courier New", monospace;
+  }
+  h1 {
+    font-size: 5em;
+  }
